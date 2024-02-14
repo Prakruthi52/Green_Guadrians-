@@ -8,8 +8,8 @@ class Signin extends StatelessWidget {
         fit: StackFit.expand,
         children: <Widget>[
           const SizedBox(height: 25),
-          CachedNetworkImage(
-            imageUrl: 'https://i.pinimg.com/736x/d5/0b/d2/d50bd25b9cc865495b31a97e7a1eed18.jpg',
+          CachedNetworkImage( 
+            imageUrl: 'https://e0.pxfuel.com/wallpapers/459/341/desktop-wallpaper-iphone-forest.jpg',
             placeholder: (context, url) => const CircularProgressIndicator(),
             errorWidget: (context, url, error) => const Text('Error loading image'),
           ),
@@ -23,7 +23,7 @@ class Signin extends StatelessWidget {
               Text(
                 'Create Account',
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.white,
                   fontSize: 24.0,
                   fontWeight: FontWeight.bold,
                 ),
